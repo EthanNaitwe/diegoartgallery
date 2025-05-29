@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="bg-primary text-primary-foreground py-12 px-6">
       <div className="max-w-7xl mx-auto text-center">
         <div className="font-playfair text-2xl font-bold mb-4">Diego Art Gallery</div>
-<parameter name="text-muted mb-6">Contemporary Art Gallery</p>
+        <p className="text-muted mb-6">Contemporary Art Gallery</p>
         <div className="flex justify-center space-x-6 mb-8">
           <a
             href="#"
