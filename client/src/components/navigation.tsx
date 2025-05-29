@@ -30,7 +30,7 @@ export default function Navigation({ activeSection }: NavigationProps) {
     <nav className="fixed top-0 w-full bg-background/95 backdrop-blur-sm z-50 py-6 px-6">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <div className="font-playfair text-2xl font-bold text-primary">
-          Elena Martinez
+          Diego Art Gallery
         </div>
         
         {/* Desktop Navigation */}

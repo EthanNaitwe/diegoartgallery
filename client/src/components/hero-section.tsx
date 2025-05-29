@@ -11,8 +11,8 @@ export default function HeroSection() {
       {/* Hero artwork backdrop */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1541961017774-22349e4a1262?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080"
-          alt="Detailed pencil drawing artwork"
+          src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080"
+          alt="Contemporary art gallery interior"
           className="w-full h-full object-cover"
         />
       </div>
@@ -20,14 +20,14 @@ export default function HeroSection() {
 
       <div className="relative z-20 text-center text-white px-6 max-w-4xl mx-auto">
         <h1 className="font-playfair text-4xl md:text-6xl font-bold mb-6">
-          Elena Martinez
+          Diego Art Gallery
         </h1>
         <p className="font-playfair text-xl md:text-2xl mb-4 italic">
-          Hand Drawing Artist
+          Contemporary Art Gallery
         </p>
         <p className="text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
-          Creating intimate connections through the timeless art of hand drawing,
-          where every stroke tells a story and captures the essence of human emotion.
+          Showcasing exceptional contemporary artwork from emerging and established artists,
+          where creativity meets craftsmanship in every carefully curated piece.
         </p>
         <div className="mt-12">
           <button

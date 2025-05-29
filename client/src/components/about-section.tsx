@@ -4,18 +4,18 @@ export default function AboutSection() {
   const processSteps = [
     {
       icon: Eye,
-      title: "Observation",
-      description: "Every piece begins with careful observation and study of light, form, and shadow.",
+      title: "Curation",
+      description: "Each artwork is carefully selected based on artistic merit, innovation, and emotional impact.",
     },
     {
       icon: PenTool,
-      title: "Sketching",
-      description: "Initial compositions are developed through multiple preliminary sketches.",
+      title: "Presentation",
+      description: "We create thoughtful exhibitions that highlight the unique voice of each artist.",
     },
     {
       icon: Palette,
-      title: "Refinement",
-      description: "The final work emerges through layers of detail and careful attention to texture.",
+      title: "Community",
+      description: "Building connections between artists, collectors, and art enthusiasts through meaningful dialogue.",
     },
   ];
 
@@ -25,33 +25,31 @@ export default function AboutSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="font-playfair text-4xl md:text-5xl font-bold text-primary mb-8">
-              About Elena
+              About Diego Art Gallery
             </h2>
             <div className="space-y-6 text-lg leading-relaxed">
               <p>
-                Elena Martinez is a contemporary hand drawing artist whose work explores the
-                intersection of traditional techniques and modern sensibilities. With over a
-                decade of experience, she has developed a distinctive style that captures both
-                the precision of classical draftsmanship and the emotional depth of contemporary
-                expression.
+                Diego Art Gallery is a contemporary art space dedicated to showcasing exceptional
+                artwork from both emerging and established artists. Our mission is to bridge the
+                gap between traditional artistic techniques and modern creative expression,
+                creating a platform where diverse artistic voices can flourish.
               </p>
               <p>
-                Her artistic journey began at the Academy of Fine Arts, where she studied under
-                master draftsmen who emphasized the importance of observation and technical skill.
-                This foundation has allowed her to create works that are both technically
-                accomplished and emotionally resonant.
+                Founded with a passion for supporting the arts community, our gallery features
+                carefully curated exhibitions that span various mediums including paintings,
+                drawings, sculptures, and mixed media works. We believe in the power of art to
+                inspire, provoke thought, and bring people together.
               </p>
               <p>
-                Elena's work has been exhibited in galleries across the country and is held in
-                private collections worldwide. She believes that in our digital age, the tactile
-                nature of hand drawing offers a unique intimacy that connects the artist directly
-                with the viewer.
+                Our space serves as both a gallery and a cultural hub, hosting artist talks,
+                workshops, and community events. We are committed to making art accessible to
+                everyone while maintaining the highest standards of artistic excellence.
               </p>
             </div>
 
             <div className="mt-12">
               <h3 className="font-playfair text-2xl font-semibold text-primary mb-6">
-                My Process
+                Our Approach
               </h3>
               <div className="space-y-4">
                 {processSteps.map((step, index) => (
@@ -69,13 +67,13 @@ export default function AboutSection() {
 
           <div className="space-y-8">
             <img
-              src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
-              alt="Artist workspace with drawing materials"
+              src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+              alt="Art gallery exhibition space"
               className="w-full h-64 object-cover rounded-lg shadow-lg"
             />
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
-              alt="Professional portrait of Elena Martinez"
+              src="https://images.unsplash.com/photo-1572217433203-63c4fa44fe2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+              alt="Contemporary artwork display in gallery"
               className="w-full h-64 object-cover rounded-lg shadow-lg"
             />
           </div>

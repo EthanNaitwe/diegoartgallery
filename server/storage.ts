@@ -36,51 +36,51 @@ export class MemStorage implements IStorage {
   private initializeArtworks() {
     const sampleArtworks: InsertArtwork[] = [
       {
-        title: "Portrait Study III",
-        medium: "Graphite on paper",
+        title: "Abstract Expressions",
+        medium: "Acrylic on canvas",
         year: 2024,
         imageUrl: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=1000",
-        description: "A detailed exploration of light and shadow in portraiture",
+        description: "A contemporary exploration of color and form",
         featured: true
       },
       {
-        title: "Botanical Study",
-        medium: "Charcoal and graphite",
+        title: "Urban Reflections",
+        medium: "Mixed media",
         year: 2024,
-        imageUrl: "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=1000",
-        description: "Intricate study of natural forms and textures",
+        imageUrl: "https://images.unsplash.com/photo-1569701802593-14db3b16a37f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=1000",
+        description: "Modern cityscape captured through contemporary lens",
         featured: false
       },
       {
-        title: "Geometric Forms",
-        medium: "Ink on paper",
+        title: "Color Symphony",
+        medium: "Oil on canvas",
         year: 2024,
-        imageUrl: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=1000",
-        description: "Abstract exploration of geometric relationships",
+        imageUrl: "https://images.unsplash.com/photo-1547036967-23d11aacaee0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=1000",
+        description: "Vibrant composition exploring emotional depth",
         featured: false
       },
       {
-        title: "Urban Landscape",
-        medium: "Pencil and charcoal",
+        title: "Textural Landscape",
+        medium: "Mixed media on board",
         year: 2024,
-        imageUrl: "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=1000",
-        description: "Architectural study capturing urban rhythms",
+        imageUrl: "https://images.unsplash.com/photo-1582561193-2e42cdb52e6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=1000",
+        description: "Contemporary interpretation of natural forms",
         featured: false
       },
       {
-        title: "Figure Study V",
-        medium: "Conte crayon",
+        title: "Minimalist Study",
+        medium: "Charcoal on paper",
         year: 2024,
-        imageUrl: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=1000",
-        description: "Human form study emphasizing gesture and movement",
+        imageUrl: "https://images.unsplash.com/photo-1577720643271-6760b609d55c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=1000",
+        description: "Clean lines and negative space exploration",
         featured: false
       },
       {
-        title: "Still Life Composition",
-        medium: "Graphite on paper",
+        title: "Contemporary Vision",
+        medium: "Acrylic and digital",
         year: 2023,
-        imageUrl: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=1000",
-        description: "Classic still life exploring form and texture",
+        imageUrl: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=1000",
+        description: "Fusion of traditional and modern techniques",
         featured: false
       }
     ];

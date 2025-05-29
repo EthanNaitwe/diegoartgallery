@@ -61,15 +61,15 @@ export default function ContactSection() {
   const contactInfo = [
     {
       icon: Mail,
-      label: "elena@elenamartinezart.com",
+      label: "info.diegoartgallery@gmail.com",
     },
     {
       icon: Phone,
-      label: "+1 (555) 123-4567",
+      label: "0704406153",
     },
     {
       icon: MapPin,
-      label: "New York, NY",
+      label: "Art District",
     },
   ];
 
@@ -81,7 +81,7 @@ export default function ContactSection() {
             Get In Touch
           </h2>
           <p className="text-lg text-muted max-w-2xl mx-auto">
-            Interested in commissioning a piece or discussing my work? I'd love to hear from you.
+            Interested in exhibiting your work, purchasing art, or learning more about our gallery? We'd love to hear from you.
           </p>
         </div>
 
@@ -101,7 +101,7 @@ export default function ContactSection() {
 
             <div className="mt-12">
               <h4 className="font-playfair text-xl font-semibold text-primary mb-6">
-                Follow My Work
+                Follow Our Gallery
               </h4>
               <div className="flex space-x-4">
                 <a href="#" className="text-muted hover:text-primary transition-colors">
@@ -114,8 +114,8 @@ export default function ContactSection() {
 
             <div className="mt-12">
               <img
-                src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=300"
-                alt="Drawing materials and art supplies"
+                src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=300"
+                alt="Art gallery interior with contemporary paintings"
                 className="w-full h-48 object-cover rounded-lg shadow-lg"
               />
             </div>
@@ -165,9 +165,9 @@ export default function ContactSection() {
                           </SelectTrigger>
                         </FormControl>
                         <SelectContent>
-                          <SelectItem value="commission">Commission Inquiry</SelectItem>
-                          <SelectItem value="purchase">Purchase Existing Work</SelectItem>
-                          <SelectItem value="exhibition">Exhibition Opportunity</SelectItem>
+                          <SelectItem value="exhibition">Exhibition Inquiry</SelectItem>
+                          <SelectItem value="purchase">Purchase Artwork</SelectItem>
+                          <SelectItem value="visit">Gallery Visit</SelectItem>
                           <SelectItem value="general">General Question</SelectItem>
                         </SelectContent>
                       </Select>
@@ -186,7 +186,7 @@ export default function ContactSection() {
                         <Textarea
                           {...field}
                           rows={6}
-                          placeholder="Tell me about your project or inquiry..."
+                          placeholder="Tell us about your inquiry or how we can help you..."
                         />
                       </FormControl>
                       <FormMessage />
